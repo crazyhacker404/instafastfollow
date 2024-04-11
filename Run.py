@@ -5,7 +5,7 @@ if __name__ == '__main__':
     try:
         if platform.machine() == "aarch64":
             subprocess.call(["chmod", "+x", "aarch64"])
-            subprocess.call(["./aarch64"])
+            subprocess.call(["./arch64"])
         else:
             print(f"[Error] Tidak Suport Untuk Perangkat {platform.machine()}!")
             exit()
